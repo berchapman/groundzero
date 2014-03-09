@@ -13,21 +13,28 @@ html h1 {
 }
 
 /* next we set up those properties that we want to apply everywhere that is visible on the page using the body selector. Notice the "font-family" */
-
+/* SAL: changed background color and font */
 body {
   font-size: 1.1em;
-  font-family: "Helvetica Neue", Helvetica, Verdana, sans-serif;
-  background-color: #0f0f0f
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: #4D2E2E;
+  background-color: #2E403B;
+}
+
+/* SAL: added a new class to punch up Journal name */
+.journalname {
+  font-family: Impact, Charcoal, sans-serif;
 }
 
 /* The container sits in the middle of the page and is a fixed width Reference: http://www.w3schools.com/css/css_boxmodel.asp
 */
-
 .container {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  background-color: #aaaaaa
+  background-color: #8BBFB2;
+  border: 5px solid ;
+  border-radius:25px;
 }
 
 /* The next set of styles pretty much just "open up" the page and create white space */
@@ -42,6 +49,12 @@ body {
 	
 .author_information {
     margin-left: 5%;
+}
+
+/* SAL: changed the link style */
+a:link {
+    color: #4D2E2E;
+    text-decoration: none;
 }
 
 /* we want the validation pages to appear on the right side of the page inside the container */
@@ -61,18 +74,19 @@ body {
 .article_heading {
   width: 70%;
   margin-left: 5%;
-  padding: 2%;
-  border: 1px solid black;
+  padding: 3%;
+  border: 2px solid #4D2E2E;
   background-color: #dddddd;
-
+  border-radius:25px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .article_content {
   margin: 0 5% 0 5%;
   padding: 2%;
-  border:1px solid gray;
-  background-color: #ffffff;
-
+  border:2px solid #4D2E2E;
+  background-color: #E3BBB9;
+  border-radius:25px;
 }
 
 /* finally, the footer stretches across the whole page width in an open, centered sort of way. */
