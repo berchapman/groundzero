@@ -1,17 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
 
 <!-- The doctype declares the type of coding the HTML page uses so that the browser knows how to render it. -->
 
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <!-- The  html tag contains everything on the page: head and body-->
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 
   <!-- The "head" container includes all the information the browser needs to display the page -->
   <head>
     <!-- the "meta" tag is used to provide, ah, meta-information about the page. 
          This one is another method to the browser what this content is and what character set we are using 
     -->
-    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html" />
 
     <!-- edit the title to include your name and make it in possessive case (http://englishplus.com/grammar/00000364.htm) -->
     <!-- SAL: Changed title link to our group -->
@@ -37,17 +38,19 @@
     	<div class="header"> <!-- contains the constant stuff at the top of the page -->
         <div class="validation_badge">
 
-        <!-- replace this html with the html snippets that displays your validation badges. -->
+        <!-- replace this html to display your html validation place holder badges. -->
+        <!--  <img src="images/html_validation_badge_mockup.png"  -->
         <p>
-          <img src="images/html_validation_badge_mockup.png" 
+          <img src="images/html_validation_badge.png" 
                alt="replace this with the HTML validator badge code snippet" 
                height="31" 
                width="88" 
           />
         </p>
-        <!-- Notice that the indentation style of the second segment of code is all on one line. Which one is more readable for you? -->
+                <!-- replace this html to display your css validation place holder badges. -->
+				<!--  <img src="images/css_validation_badge_mockup.png"  -->
         <p>
-          <img src="images/css_validation_badge_mockup.png" alt="replace this with the CSS validator badge code snippet" height="31" width="88" />
+          <img src="images/css_validation_badge.png" alt="replace this with the CSS validator badge code snippet" height="31" width="88" />
         </p>
       </div>
 
@@ -64,19 +67,22 @@
     	<!-- every time you update the page, create a new article 
     	you can copy this section of code (everything in the div.article container) and change the contents 
     	-->
-		<!-- pulled out first Journal entry example -- don't need it -SAL -->
+		<!-- pulled out first Journal entry example - don't need it -SAL -->
 
       <div class="article">
         <div class="article_heading">
          <h1>Frontend Freelancers class meets, then gets nitty "GIT"ty in the Lightning Kitchen.</h1>
          <em> Week 1:  02/24/2014 - 03/02/2014</em>
         </div>
-        <div class="article_content">
+        <div class="article_content1">
+        <div class="img1">
+        <img src="images/image_1.png" alt="and an image placeholder" height="250" width="250" />
+        </div>
           <p>The class started with the introduction and background of all the students and what we hoped to master from participating at PCS.
 		      Each of us has varied history, be it in design, teaching, art, swimming, construction or coding, yet we all want freelancing to free us up temporally and/or finacially. The class is geared toward this goal by focusing on the "meta" picture of what it is needed to function in the web environment while not bogging down on individual programs or coding languages.  The speed is fast and intimidating, yet hardwork and trust in the system should prevail.</p>
-          <p>The "outside of class" learning curve is high and sometimes feels a little overwhelming, but we trust there is a reason for all of it (read: GIT) that will make more sense later.  
+          <p>The "outside of class" learning curve is high and sometimes feels a little overwhelming, but we trust there is a reason for all of it (read: GIT) that will make more sense later.</p>  
 		      <p>Topics covered in the first week are itemized below with a brief description of each:</p>
-            <ul> <!-- SAL: needs to be an unordered list per reqs -->
+            <ul><!-- SAL: needs to be an unordered list per reqs -->
               <li><strong>Developent Resources</strong>: Programs needed on the machine and how to set them up</li>
 					     <!-- SAL: add in if more content is needed 
 					       <ul>
@@ -99,17 +105,18 @@
               </li>					  
             </ul>
 
-          <img src="images/image_placeholder.png" alt="and an image placeholder" height="250" width="250" />
-
         </div>    
       </div>
 
 
-      <div class="article">
+      <div class="article1">
         <div class="article_heading">
          <h1>Scrape and Break: Looking at the innards and outtards of an web page.</h1> <em>Week 2:  03/03/2014 - 03/10/2014 </em>
         </div>
-        <div class="article_content">
+        <div class="article_content2">
+        <div class="img2">
+          <img src="images/image_2.png" alt="and an image placeholder" height="250" width="250" />
+        </div>
           <p>The class covered how to construct a web page by deconstructing sample pages.</p>
 		      <p>Text is the medium in which everything from HTML to CSS to Javascript is created. Basic Text (non-code words or syntax) forms the content of a site. HTML describes and contains that content in a "Meta" way, while CSS tells that content and HTML how to look.  Javascript directs HTML and CSS how to act/react. We also looked at Chrome Developer tools that diagnosed each of these components of a web page.</p>
           
@@ -124,7 +131,6 @@
             </ul>
 		      <p>The real life examples by Nim were much easier to follow after completing the readings and gave insight into the lifecycle of a project</p>
 
-          <img src="images/image_placeholder.png" alt="and an image placeholder" height="250" width="250" />
 
         </div>    
       </div>
@@ -137,11 +143,11 @@
   	</div>  <!-- .container -->
 
     <!-- This is where you link to this page's javascript file. -->
-  	<script src="scripts/XXjournal.js"></script>
+  	<script src="scripts/XXjournal.js" type="text/javascript"></script>
 
     <!-- The "script" tag can also contain actual scripts that get executed immediately as the page finishes loading -->
-    <!-- SAL script is assumed to be Javascript -->
-    <script>
+
+    <script type="text/javascript">
       initializePage(); // this function is used to perform any scripts needed on the page.
     </script>
   </body>

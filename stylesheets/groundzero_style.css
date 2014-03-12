@@ -66,9 +66,17 @@ a:link {
 
 
 /* the next three rules set the appearance of each weekly article, adding more whitespace, etc. */
+.img1 {
+	float: left;
+	margin-top: 5%;
+    margin-right: 30px;
+    margin-top: 10px;
 
-.article {
-  margin: 5%;
+}
+
+.img2 {
+	float: right;
+	margin-top: 10px;
 }
 
 .article_heading {
@@ -81,7 +89,7 @@ a:link {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.article_content {
+.article_content1 {
   margin: 0 5% 0 5%;
   padding: 2%;
   border:2px solid #4D2E2E;
@@ -89,6 +97,13 @@ a:link {
   border-radius:25px;
 }
 
+.article_content2 {
+  margin: 0 5% 0 5%;
+  padding: 2%;
+  border:2px solid #4D2E2E;
+  background-color: #E3BBB9;
+  border-radius:25px;
+}
 /* finally, the footer stretches across the whole page width in an open, centered sort of way. */
 .footer {
   font-size: .80em;
