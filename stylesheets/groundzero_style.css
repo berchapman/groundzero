@@ -121,7 +121,7 @@ a:link {
 
 @media (max-width: 600px) {
   .validation_badge {
-    display: left;
+    float: left;
   }
   .article_heading {
     border: 2px solid #2E403B;
